@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SecuriFeed | PhishDetect</title>
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/analyzer.css">
+<link rel="stylesheet" href="css/news.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="background-grid"></div>
+<div class="glow glow1"></div>
+<div class="glow glow2"></div>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+<i class="fas fa-shield-halved"></i>
+<span>SecuriFeed</span>
+</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#analyzer">Analyzer</a></li>
+<li><a href="#threats">Threat Feed</a></li>
+<li><a href="#quiz">Quiz</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<h1>
+AI Powered
+<span>Phishing Detection</span>
+System
+</h1>
+
+<p>
+Analyze suspicious URLs, identify phishing attempts,
+check SSL security and stay updated with cyber threats.
+</p>
+
+<div class="hero-buttons">
+<button class="primary-btn">
+Scan URL
+</button>
+
+<button class="secondary-btn">
+Threat Feed
+</button>
+</div>
+
+</div>
+
+<div class="hero-card">
+
+<div class="terminal">
+
+<div class="terminal-header">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<div class="terminal-body">
+
+<p>> Initializing Scan...</p>
+<p>> Checking SSL...</p>
+<p>> Analyzing Domain...</p>
+<p>> Threat Intelligence Loaded...</p>
+<p class="success">> System Ready</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<div class="stat-card">
+<h2 id="threatCount">12450</h2>
+<p>Threats Blocked</p>
+</div>
+
+<div class="stat-card">
+<h2 id="urlCount">45893</h2>
+<p>URLs Analyzed</p>
+</div>
+
+<div class="stat-card">
+<h2>99.8%</h2>
+<p>Detection Accuracy</p>
+</div>
+
+<div class="stat-card">
+<h2>ACTIVE</h2>
+<p>Live Monitoring</p>
+</div>
+
+</section>
+
+<section id="analyzer" class="analyzer">
+
+<h2 class="section-title">
+Phishing URL Analyzer
+</h2>
+
+<div class="analyzer-box">
+
+<input
+type="text"
+id="urlInput"
+placeholder="https://example.com"
+/>
+
+<button id="analyzeBtn">
+Analyze URL
+</button>
+
+<div id="result">
+
+<h3>Risk Score: --</h3>
+
+<p>
+Waiting for URL analysis...
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="threats" class="news-section">
+
+<h2 class="section-title">
+Cyber Threat Feed
+</h2>
+
+<div class="news-container" id="newsContainer">
+
+<div class="news-card">
+<h3>Ransomware Campaign Detected</h3>
+<p>Latest cyber attack targeting enterprises.</p>
+</div>
+
+<div class="news-card">
+<h3>Critical Windows Vulnerability</h3>
+<p>Security patch released by Microsoft.</p>
+</div>
+
+<div class="news-card">
+<h3>Banking Phishing Alert</h3>
+<p>Fake login pages targeting customers.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="quiz" class="quiz-section">
+
+<h2 class="section-title">
+Security Awareness Quiz
+</h2>
+
+<div class="quiz-box">
+
+<h3>
+Which URL is safer?
+</h3>
+
+<button class="quiz-option">
+paypaI-login.com
+</button>
+
+<button class="quiz-option">
+paypal.com
+</button>
+
+<p id="quizResult"></p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>SecuriFeed</h3>
+
+<p>
+Developed By Lahu Wabale
+</p>
+
+<p>
+Cyber Security Internship Project
+</p>
+
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/analyzer.js"></script>
+<script src="js/news-feed.js"></script>
+<script src="js/game.js"></script>
+
+</body>
+</html>
