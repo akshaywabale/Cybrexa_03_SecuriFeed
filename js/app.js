@@ -83,3 +83,39 @@ behavior:"smooth"
 });
 
 });
+window.addEventListener("load",()=>{
+
+setTimeout(()=>{
+
+document.getElementById("loader").style.display="none";
+
+},2000);
+
+});
+const lines=[
+"> Initializing Scan...",
+"> Checking SSL...",
+"> Analyzing Domain...",
+"> Loading Threat Intel...",
+"> System Ready"
+];
+
+let i=0;
+
+function typeLines(){
+
+const box=document.getElementById("typing");
+
+if(!box) return;
+
+box.innerHTML+=lines[i]+"<br>";
+
+i++;
+
+if(i<lines.length){
+setTimeout(typeLines,700);
+}
+
+}
+
+setTimeout(typeLines,1000);

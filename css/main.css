@@ -451,3 +451,54 @@ font-size:2.2rem;
 font-size:2rem;
 }
 }
+#matrix{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-5;
+opacity:.15;
+}
+#loader{
+position:fixed;
+inset:0;
+background:#050816;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:99999;
+font-family:Orbitron;
+font-size:3rem;
+color:#00f5ff;
+}
+.radar{
+width:250px;
+height:250px;
+border:2px solid #00f5ff;
+border-radius:50%;
+position:relative;
+margin:30px auto;
+overflow:hidden;
+}
+
+.scanner{
+position:absolute;
+width:50%;
+height:2px;
+background:#00f5ff;
+top:50%;
+left:50%;
+transform-origin:left center;
+animation:scan 3s linear infinite;
+box-shadow:0 0 20px #00f5ff;
+}
+
+@keyframes scan{
+from{
+transform:rotate(0deg);
+}
+to{
+transform:rotate(360deg);
+}
+}
