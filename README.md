@@ -141,19 +141,19 @@ The project follows secure development practices:
 
 ### Dashboard Home
 
-Add screenshot here
+
 
 ### Live News Feed
 
-Add screenshot here
+
 
 ### Threat Analytics
 
-Add screenshot here
+
 
 ### IP Intelligence
 
-Add screenshot here
+
 
 ---
 
