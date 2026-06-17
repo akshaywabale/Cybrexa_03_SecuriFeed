@@ -135,25 +135,6 @@ The project follows secure development practices:
 * Responsive Security-Oriented Design
 * Clean and Maintainable Code Structure
 
----
-
-# 📸 Screenshots
-
-### Dashboard Home
-
-
-
-### Live News Feed
-
-
-
-### Threat Analytics
-
-
-
-### IP Intelligence
-
-
 
 ---
 
@@ -161,13 +142,7 @@ The project follows secure development practices:
 
 ### Live Website
 
-Add your Netlify / GitHub Pages URL here
-
-Example:
-
-https://your-live-demo-link.netlify.app
-
----
+https://securifeedcybrexa.netlify.app/
 
 # ⚙️ Installation
 
